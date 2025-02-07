@@ -1,0 +1,145 @@
+.container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .task-input {
+    padding: 8px;
+    margin-right: 5px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-button {
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between; /* Aligns task text & buttons */
+    align-items: center; /* Keeps buttons and text aligned */
+    background: #f4f4f4;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: color 0.3s, text-decoration 0.3s;
+    cursor: pointer; /* Makes tasks look clickable */
+  }
+  
+  .task-item:hover {
+    color: darkblue;
+  }
+  
+  .task-content {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between task text & buttons */
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 5px; /* Adds spacing between buttons */
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+  }
+  
+  .edit-input {
+    padding: 5px;
+    width: 60%;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: darkorange;
+  }
+  
+  .save-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .save-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
+/* Light Mode */
+.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Mode */
+  .dark {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Dark Mode Task Item */
+  .dark .task-item {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Dark Mode Button */
+  .theme-button {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .theme-button:hover {
+    background-color: darkgray;
+  }
+  
