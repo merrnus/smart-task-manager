@@ -109,10 +109,10 @@ function TaskList() {
               ) : (
                 <>
                   <button onClick={() => startEditing(index)} className={styles["edit-button"]}>
-                    ✏️
+                    🖊️
                   </button>
                   <button onClick={(e) => { e.stopPropagation(); deleteTask(index); }} className={styles["delete-button"]}>
-                    ❌
+                    ✖️
                   </button>
                 </>
               )}
